@@ -40,7 +40,7 @@ public class EvaluationManager : MonoBehaviour
 		finally {
 			if (e.success == true) {
 				outputUIElement.text = result.ToString();}
-			Debug.Log("[EvaluateionManager] Success = " + e.success + "; Result = " + result.ToString());
+			Debug.Log("[EvaluationManager] Success = " + e.success + "; Result = " + result.ToString());
 		};
 
 	}
